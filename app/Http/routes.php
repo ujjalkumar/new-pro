@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('hello',function(){
 	return 'hello';
 });
+
+Route::get('ujjal',function(){
+	return 'ujjal';
+});
+Route::get('akash',function(){
+	return 'akash';
+});
+
