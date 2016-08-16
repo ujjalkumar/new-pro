@@ -22,3 +22,7 @@ Route::get('hello',function(){
 Route::get('ujjal',function(){
 	return 'ujjal';
 });
+Route::get('akash',function(){
+	return 'akash';
+});
+
