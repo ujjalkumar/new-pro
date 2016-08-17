@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+<<<<<<< HEAD
 Route::get('tcs', function () {
     return view('action.tcs');
 })->name('TCS');
@@ -26,3 +27,16 @@ Route::get('cts', function () {
 Route::get('tier5', function () {
     return view('action.Tier5');
 })->name('Tier5');
+=======
+Route::get('hello',function(){
+	return 'hello';
+});
+
+Route::get('ujjal',function(){
+	return 'ujjal';
+});
+Route::get('akash',function(){
+	return 'akash';
+});
+
+>>>>>>> 753d5f9dbbf9c4485ee843d9ef676067cff1f46b
