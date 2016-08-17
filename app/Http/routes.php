@@ -12,17 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get('hello',function(){
-	return 'hello';
-});
+Route::get('tcs', function () {
+    return view('action.tcs');
+})->name('TCS');
 
-Route::get('ujjal',function(){
-	return 'ujjal';
-});
-Route::get('akash',function(){
-	return 'akash';
-});
+Route::get('cts', function () {
+    return view('action.cts');
+})->name('CTS');
 
+Route::get('tier5', function () {
+    return view('action.Tier5');
+})->name('Tier5');
